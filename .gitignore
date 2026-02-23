@@ -1,3 +1,38 @@
-/.idea/
-/target/
-/*.iml
+# Скомпилированные файлы Java/Kotlin
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.utilsBackup
+pom.xml.vbackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+gen/
+
+# Локальная база данных H2 (папка data из твоего пути jdbc:h2:file:./data/lab3db)
+data/
+
+# Система
+.DS_Store
+Thumbs.db
+
+# Твоя папка с тестами остается, так как она не в списке игнорирования
+# test_postman/ - НЕ добавляем сюда, чтобы сохранить линки
